@@ -124,12 +124,18 @@ const Index = () => {
     className="max-w-4xl text-white"
   >
     <motion.h1
-      variants={fadeInUp}
-      className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
-    >
-      Tvoj TCG center v Mariboru –{" "}
-      <span className="gradient-text">igraj, zbiraj in uživaj.</span>
-    </motion.h1>
+  variants={fadeInUp}
+  className="relative inline-block text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white"
+>
+  {/* highlight bar */}
+  <span
+    aria-hidden="true"
+    className="absolute left-0 top-[55%] -translate-y-1/2 h-[0.9em] w-[min(36rem,95%)] rounded-md bg-[#C03B9B]/70 blur-[0.2px] -z-10"
+  />
+
+  Tvoj TCG center v Mariboru –{" "}
+  <span className="gradient-text">igraj, zbiraj in uživaj.</span>
+</motion.h1>
 
     <motion.p
       variants={fadeInUp}
