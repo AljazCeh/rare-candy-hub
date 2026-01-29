@@ -118,7 +118,7 @@ const ONas = () => {
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Rare Candy Center je nastal iz preprostega spoznanja: Maribor
-                potrebuje več kot le trgovino z kartami. Potrebuje prostor, kjer
+                potrebuje več kot le trgovino s kartami. Potrebuje prostor, kjer
                 se lahko igralci srečajo, učijo drug od drugega in gradijo
                 prijateljstva skozi skupno strast.
               </p>
