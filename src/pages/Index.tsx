@@ -384,7 +384,7 @@ const Index = () => {
             >
               Spletna trgovina z TCG izdelki je v pripravi. Za zdaj nas lahko
               kontaktiraš za povpraševanje o izdelkih ali nas obiskaš po
-              predhodnem dogovoru.
+              predhodnem dogovoru. 
             </motion.p>
             <motion.div variants={fadeInUp}>
               <Link to="/kontakt" className="cta-primary inline-block">
