@@ -117,48 +117,48 @@ const Index = () => {
         </div>
 
         <div className="section-container relative z-10">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={staggerContainer}
-            className="max-w-4xl"
-          >
-            <motion.h1
-              variants={fadeInUp}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight"
-            >
-              Tvoj TCG center v Mariboru –{" "}
-              <span className="gradient-text">igraj, zbiraj in uživaj.</span>
-            </motion.h1>
+  <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={staggerContainer}
+    className="max-w-4xl text-white"
+  >
+    <motion.h1
+      variants={fadeInUp}
+      className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
+    >
+      Tvoj TCG center v Mariboru –{" "}
+      <span className="gradient-text">igraj, zbiraj in uživaj.</span>
+    </motion.h1>
 
-            <motion.p
-              variants={fadeInUp}
-              className="text-xl md:text-2xl text-muted-foreground mb-4"
-            >
-              Za vse, ki želijo več kot le trgovino s kartami: prostor za igro,
-              skupnost in doživetje.
-            </motion.p>
+    <motion.p
+      variants={fadeInUp}
+      className="text-xl md:text-2xl text-white/90 mb-4"
+    >
+      Za vse, ki želijo več kot le trgovino s kartami: prostor za igro,
+      skupnost in doživetje.
+    </motion.p>
 
-            <motion.p
-              variants={fadeInUp}
-              className="text-base md:text-lg text-muted-foreground/80 mb-8 max-w-2xl"
-            >
-              Rare Candy Center je sodoben prostor za vse ljubitelje TCG iger v
-              Mariboru. Ne glede na to, ali si izkušen igralec ali šele
-              začenjaš, te čaka prijazna skupnost, urejen igralni prostor in
-              redno organizirani dogodki.
-            </motion.p>
+    <motion.p
+      variants={fadeInUp}
+      className="text-base md:text-lg text-white/70 mb-8 max-w-2xl"
+    >
+      Rare Candy Center je sodoben prostor za vse ljubitelje TCG iger v
+      Mariboru. Ne glede na to, ali si izkušen igralec ali šele
+      začenjaš, te čaka prijazna skupnost, urejen igralni prostor in
+      redno organizirani dogodki.
+    </motion.p>
 
-            <motion.div
-              variants={fadeInUp}
-              className="flex flex-col sm:flex-row gap-4 mb-12"
-            >
-              <Link to="/kontakt" className="cta-primary text-center">
-                Kontaktiraj nas
-              </Link>
-              <Link to="/o-nas" className="cta-secondary text-center">
-                Pridruži se skupnosti
-              </Link>
+    <motion.div
+      variants={fadeInUp}
+      className="flex flex-col sm:flex-row gap-4 mb-12"
+    >
+      <Link to="/kontakt" className="cta-primary text-center">
+        Kontaktiraj nas
+      </Link>
+      <Link to="/o-nas" className="cta-secondary text-center">
+        Pridruži se skupnosti
+      </Link>
             </motion.div>
 
             {/* Highlights */}
