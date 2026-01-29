@@ -84,8 +84,8 @@
   }
 
   .gradient-text {
-    @apply bg-clip-text text-transparent;
-    background: var(--gradient-neon);
+  background: none;
+  color: inherit;
   }
 
   .cta-primary {
