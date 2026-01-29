@@ -128,7 +128,9 @@ const Index = () => {
   className="relative inline-block text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white"
 >
   Tvoj TCG center v Mariboru –{" "}
-  <span className="gradient-text">igraj, zbiraj in uživaj.</span>
+  <span className="text-secondary">
+    igraj, zbiraj in uživaj.
+  </span>
 </motion.h1>
 
     <motion.p
