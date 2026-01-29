@@ -8,6 +8,8 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0 },
 };
 
+import SectionDivider from "@/components/SectionDivider";
+
 const staggerContainer = {
   hidden: { opacity: 0 },
   visible: {
@@ -102,7 +104,7 @@ const ONas = () => {
           </motion.div>
         </div>
       </section>
-
+<SectionDivider />
       {/* Story */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -154,7 +156,7 @@ const ONas = () => {
           </motion.div>
         </div>
       </section>
-
+<SectionDivider />
       {/* Values */}
       <section className="py-20 md:py-28">
         <div className="section-container">
@@ -202,7 +204,7 @@ const ONas = () => {
           </motion.div>
         </div>
       </section>
-
+<SectionDivider />
       {/* Timeline */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -243,7 +245,7 @@ const ONas = () => {
           </motion.div>
         </div>
       </section>
-
+<SectionDivider />
       {/* Team Card */}
       <section className="py-20 md:py-28">
         <div className="section-container">
@@ -282,6 +284,7 @@ const ONas = () => {
           </motion.div>
         </div>
       </section>
+      <SectionDivider />
     </Layout>
   );
 };
