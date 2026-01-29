@@ -19,7 +19,6 @@ import heroBackground from "@/assets/hero-background.jpg";
 import eventTournament from "@/assets/event-tournament.jpg";
 import loungeChill from "@/assets/lounge-chill.jpg";
 import communityNight from "@/assets/community-night.jpg";
-import SectionDivider from "@/components/SectionDivider";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -193,7 +192,7 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
+
       {/* Why Rare Candy Center */}
       <section className="py-20 md:py-28">
         <div className="section-container">
@@ -242,7 +241,7 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
+
       {/* Services Preview */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -300,7 +299,7 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
+
       {/* Events Section */}
       <section className="py-20 md:py-28">
         <div className="section-container">
@@ -355,7 +354,6 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* Store Coming Soon */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -394,7 +392,6 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* Contact Strip */}
       <section className="py-16 md:py-20 bg-gradient-card neon-glow">
         <div className="section-container">
@@ -438,7 +435,6 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-      <SectionDivider />
     </Layout>
   );
 };

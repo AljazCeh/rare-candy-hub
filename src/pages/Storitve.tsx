@@ -11,7 +11,7 @@ import {
   Gamepad2,
   Sparkles,
 } from "lucide-react";
-import SectionDivider from "@/components/SectionDivider";
+
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -139,7 +139,6 @@ const Storitve = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* Services Grid */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -192,7 +191,6 @@ const Storitve = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* Gaming Space Preview */}
       <section className="py-20 md:py-28">
         <div className="section-container">
@@ -231,7 +229,6 @@ const Storitve = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* CTA */}
       <section className="py-16 md:py-20 bg-gradient-card neon-glow">
         <div className="section-container">
@@ -269,7 +266,6 @@ const Storitve = () => {
           </motion.div>
         </div>
       </section>
-      <SectionDivider />
     </Layout>
   );
 };

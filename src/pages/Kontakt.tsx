@@ -11,7 +11,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-import SectionDivider from "@/components/SectionDivider";
+
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -171,7 +171,6 @@ const Kontakt = () => {
           </motion.div>
         </div>
       </section>
-<SectionDivider />
       {/* Contact Section */}
       <section className="py-20 md:py-28 bg-muted/20">
         <div className="section-container">
@@ -392,7 +391,6 @@ const Kontakt = () => {
           </div>
         </div>
       </section>
-      <SectionDivider />
     </Layout>
   );
 };
