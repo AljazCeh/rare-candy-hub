@@ -153,15 +153,21 @@ const Index = () => {
 
     <motion.div
       variants={fadeInUp}
-      className="flex flex-col sm:flex-row gap-4 mb-12"
-    >
-      <Link to="/kontakt" className="cta-primary text-center">
-        Kontaktiraj nas
-      </Link>
-      <Link to="/o-nas" className="cta-secondary text-center">
-        Pridruži se skupnosti
-      </Link>
-            </motion.div>
+      className="flex flex-col sm:flex-row justify-center items-center gap-5 mb-12">  
+      <Link to="/kontakt"
+    className="cta-primary text-center px-8 py-4 text-base md:text-lg"
+  >
+    Kontaktiraj nas
+  </Link>
+
+  <Link
+    to="/o-nas"
+    className="cta-secondary text-center px-8 py-4 text-base md:text-lg"
+  >
+    Pridruži se skupnosti
+  </Link>
+</motion.div>
+
 
             {/* Highlights */}
             <motion.div

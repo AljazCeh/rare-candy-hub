@@ -4,10 +4,10 @@ import { Menu, X, ShoppingBag } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "/", label: "Domov" },
-  { href: "/o-nas", label: "O nas" },
-  { href: "/storitve", label: "Storitve" },
-  { href: "/kontakt", label: "Kontakt" },
+  { href: "/", label: "DOMOV" },
+  { href: "/o-nas", label: "O NAS" },
+  { href: "/storitve", label: "STORITVE" },
+  { href: "/kontakt", label: "KONTAKT" },
 ];
 
 export const Header = () => {
@@ -39,7 +39,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-lg md:text-xl font-bold text-foreground">
+            <span className="text-lg md:text-2xl font-bold text-foreground">
               Rare Candy Center
             </span>
             <span className="hidden sm:inline text-xs text-muted-foreground">
@@ -53,7 +53,7 @@ export const Header = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className={`text-sm font-medium transition-colors hover:text-secondary ${
+                className={`text-lg font-medium transition-colors hover:text-secondary ${
                   location.pathname === link.href
                     ? "text-secondary"
                     : "text-muted-foreground"
@@ -73,7 +73,7 @@ export const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <Link to="/kontakt" className="cta-primary text-sm">
+            <Link to="/kontakt" className="cta-primary text-lg">
               Kontaktiraj nas
             </Link>
           </div>
@@ -107,7 +107,7 @@ export const Header = () => {
                 <Link
                   key={link.href}
                   to={link.href}
-                  className={`block py-2 text-base font-medium transition-colors ${
+                  className={`block py-3 text-lg font-medium transition-colors ${
                     location.pathname === link.href
                       ? "text-secondary"
                       : "text-muted-foreground"
