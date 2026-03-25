@@ -10,6 +10,8 @@ import {
   Calendar,
   Gamepad2,
   Sparkles,
+  Search,
+  BadgeEuro,
 } from "lucide-react";
 
 
@@ -98,6 +100,42 @@ const services = [
       "Rojstnodnevne zabave",
       "Korporativni teambuilding",
       "Prilagodljivi paketi",
+    ],
+  },
+    {
+    icon: Sparkles,
+    title: "Cleaning & Repair",
+    description:
+      "Profesionalno čiščenje in popravilo kart za izboljšanje videza in povečanje vrednosti. Ne odpisuj poškodovanih kart — z ustrezno obdelavo jih lahko pripravimo na višji nivo.",
+    features: [
+      "Odstranjevanje umazanije",
+      "Zmanjševanje prask",
+      "Popravilo gub (crease repair)",
+      "Vizualna obnova kart",
+    ],
+  },
+  {
+    icon: Search,
+    title: "Pre-Grading",
+    description:
+      "Natančna analiza kart pred pošiljanjem na grading. Izogni se slabim ocenam in nepotrebnim stroškom z realno oceno potenciala tvoje karte.",
+    features: [
+      "Analiza centeringa",
+      "Pregled površine",
+      "Pregled robov in vogalov",
+      "Ocena potencialnega grade-a",
+    ],
+  },
+  {
+    icon: BadgeEuro,
+    title: "Ocenjevanje & Odkup Kart",
+    description:
+      "Ne veš, koliko je tvoja karta vredna ali jo želiš hitro prodati? Ponujamo realno oceno tržne vrednosti in možnost takojšnjega odkupa.",
+    features: [
+      "Realna ocena vrednosti kart",
+      "Pregled stanja in potenciala",
+      "Svetovanje za prodajo ali grading",
+      "Možnost hitrega odkupa",
     ],
   },
 ];
